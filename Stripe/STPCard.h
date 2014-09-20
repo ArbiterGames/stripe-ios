@@ -16,17 +16,17 @@
  */
 @interface STPCard : NSObject <STPFormEncodeProtocol>
 
-@property (nonatomic) NSString *number;
+@property (retain, nonatomic) NSString *number;
 @property (nonatomic) NSUInteger expMonth;
 @property (nonatomic) NSUInteger expYear;
-@property (nonatomic) NSString *cvc;
-@property (nonatomic) NSString *name;
-@property (nonatomic) NSString *addressLine1;
-@property (nonatomic) NSString *addressLine2;
-@property (nonatomic) NSString *addressCity;
-@property (nonatomic) NSString *addressState;
-@property (nonatomic) NSString *addressZip;
-@property (nonatomic) NSString *addressCountry;
+@property (retain, nonatomic) NSString *cvc;
+@property (retain, nonatomic) NSString *name;
+@property (retain, nonatomic) NSString *addressLine1;
+@property (retain, nonatomic) NSString *addressLine2;
+@property (retain, nonatomic) NSString *addressCity;
+@property (retain, nonatomic) NSString *addressState;
+@property (retain, nonatomic) NSString *addressZip;
+@property (retain, nonatomic) NSString *addressCountry;
 
 @property (nonatomic, readonly) NSString *object;
 @property (nonatomic, readonly) NSString *last4;
