@@ -9,3 +9,5 @@ DerivedData
 xcuserdata
 
 project.xcworkspace
+
+*.meta
